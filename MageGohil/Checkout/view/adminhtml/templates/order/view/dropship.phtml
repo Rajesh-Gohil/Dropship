@@ -1,0 +1,12 @@
+<?php //if($block->getDropshipValue()):?>
+    <section class="admin__page-section">
+        <div class="admin__page-section-title">
+            <span class="title"><?php /* @escapeNotVerified */ echo __('Dropship') ?></span>
+        </div>
+        <div class="admin__page-section-content">
+            <p>
+            <strong><?php echo ($block->getDropshipValue()) ? 'Yes' : 'No'; ?></strong>
+            </p>       
+        </div>
+    </section>
+<?php //endif; ?>
